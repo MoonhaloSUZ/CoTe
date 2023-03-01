@@ -1,6 +1,6 @@
 def sol(cards1, cards2, goal):
     answer = 'Yes'
-    index_one = 0
+    index_one = 1
     index_two = 0
 
     for i in goal:
