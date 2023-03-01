@@ -1,6 +1,7 @@
 def sol(cards1, cards2, goal):
     answer = 'Yes'
-    index_one = index_two = 0
+    index_one = 0
+    index_two = 0
 
     for i in goal:
         if len(cards1) > index_one and i == cards1[index_one]:
